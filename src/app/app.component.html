@@ -1,10 +1,17 @@
 <h1>Playstation</h1>
-<ul>
-  <li *ngFor="let item of data">
-    {{ item.name }} - {{ item.genre }}
 
-  </li>
-</ul>
+<section class="card-container">
+
+  <div *ngFor="let item of data">
+    <div class="card">
+      {{ item.name }} - {{ item.genre }}
+
+    </div>
+
+  </div>
+
+</section>
+
 
 
 
